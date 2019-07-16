@@ -1,0 +1,15 @@
+product:
+  desiredPrice: 100.00 # the desired price eG 100.00
+  url: 'https://www.amazon.de/AMD-Ryzen-3600x-Cache-Wraith/dp/B07SQBFN2D/ref=sr_1_4?__mk_de_DE=ÅMÅZÕÑ&crid=26QNV4CW3GQPJ&keywords=ryzen+9+3900x&qid=1563305283&s=gateway&sprefix=ryzen+9%2Caps%2C150&sr=8-4' #copy paste the url from amazon and paste it here
+maiLServer:
+  smtpAdress: 'smtp.sendgrid.net' #url smtp server
+  smtpPort: 25 # the smtp port
+  ttls: false # use ttls ?
+  username: 'apikey' #insert your smtp username here
+  password: '' #insert your smtp password here
+mail:
+  from: '' # from sender adresse
+  to: '' # to sender adress
+script:
+  periodicrun: True #if this is true, the pricechecker runs every 60 Minutes
+  periodictime: 1 # time in minutes
